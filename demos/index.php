@@ -69,7 +69,7 @@
 			<dt>Items total</dt>
 			<dd><?php echo $items['total']; ?></dd>
 			<dt>Spent total</dt>
-			<dd><?php echo $values['total']; ?> <small>(in the currency you inputted at MFC)</small></dd>
+			<dd><?php echo $values['total']; ?> <small>yen</small></dd>
 		</dl>
 		<hr>
 		<ul role="tablist" class="nav nav-tabs">
@@ -92,11 +92,6 @@
 							{
 								$score = "none";
 							}
-
-							// if( $key > 0 && $key % 3 == 0 )
-							// {
-							// 	echo '</div><div class="row">';
-							// }
 					?>
 					<div class="col-xs-12 col-sm-6 col-md-4">
 						<div class="thumbnail">
@@ -105,7 +100,7 @@
 							<div class="caption">
 								<p>
 									ID: <strong>#<?php echo $item['data']['id']; ?></strong><br />
-									Price Given: <strong><?php echo $item['data']['price']; ?></strong><br />
+									Price: <strong><?php echo $item['data']['price']; ?></strong><br />
 									Release Date: <strong><?php echo $item['data']['release_date']; ?></strong><br />
 									Score Given: <strong><?php echo $score; ?></strong><br />
 									Wishability: <strong><?php echo $item['mycollection']['wishability']; ?></strong>
@@ -122,7 +117,7 @@
 						<tr>
 							<th>#</th>
 							<th>Name</th>
-							<th>Price Given</th>
+							<th>Price</th>
 							<th>Release Date</th>
 							<th>Score Given</th>
 							<th>Wishability</th>
