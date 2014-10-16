@@ -1,0 +1,23 @@
+{
+  "name": "mfc-api-class",
+  "version": "0.0.0",
+  "description": "MyFigureCollection API Class",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasknot/mfc-api-class.git"
+  },
+  "author": "Rafael F. Silva <rafaelfsilva1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasknot/mfc-api-class/issues"
+  },
+  "homepage": "https://github.com/sasknot/mfc-api-class",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-compass": "^1.3.2"
+  }
+}
